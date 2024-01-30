@@ -1,0 +1,12 @@
+/**
+ * Plugin Name: Xpate
+ * Plugin URI: https://xpate.com
+ * Description: Xpate WooCommerce plugin
+ * Version:
+ * Author: Ginger Payments
+ * Author URI: https://www.gingerpayments.com/
+ * License: The MIT License (MIT)
+ * Text Domain: xpate
+ * Domain Path: /languages
+ */
+
