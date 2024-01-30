@@ -1,0 +1,182 @@
+# Copyright (C) 2017 XPATE
+# This file is distributed under the same license as the Xpate package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Xpate 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/xpate\n"
+"POT-Creation-Date: 2024-01-30 11:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-01-30 12:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (UK)\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.5.3; wp-6.1.1"
+
+#: classes/class-wc-xpate-amex.php:50 classes/class-wc-xpate-applepay.php:50
+#: classes/class-wc-xpate-bancontact.php:50
+#: classes/class-wc-xpate-callback.php:164
+#: classes/class-wc-xpate-creditcard.php:50 classes/class-wc-xpate-ideal.php:58
+#: classes/class-wc-xpate-klarnapaynow.php:50
+#: classes/class-wc-xpate-payconiq.php:50 classes/class-wc-xpate-paynow.php:49
+#: classes/class-wc-xpate-paypal.php:50
+#: classes/class-wc-xpate-tikkiepaymentrequest.php:50
+#: classes/class-wc-xpate-wechat.php:50
+msgid "There was a problem processing your transaction."
+msgstr "There was a problem processing your transaction."
+
+#: classes/class-wc-xpate-callback.php:16
+#: classes/class-wc-xpate-callback.php:17
+msgid "Xpate"
+msgstr "Xpate"
+
+#: classes/class-wc-xpate-callback.php:26
+msgid "API key"
+msgstr "API key"
+
+#: classes/class-wc-xpate-callback.php:28
+msgid "API key provided by Xpate"
+msgstr "API key provided by Xpate"
+
+#: classes/class-wc-xpate-callback.php:41
+msgid "Failed payment page"
+msgstr "Failed payment page"
+
+#: classes/class-wc-xpate-callback.php:43
+msgid "Page where user is redirected after payment has failed."
+msgstr "Page where user is redirected after payment has failed."
+
+#: classes/class-wc-xpate-callback.php:48
+msgid "Checkout Page"
+msgstr "Checkout Page"
+
+#: classes/class-wc-xpate-callback.php:49
+msgid "Shopping Cart"
+msgstr "Shopping Cart"
+
+#: classes/class-wc-xpate-callback.php:55
+msgid "cURL CA bundle"
+msgstr "cURL CA bundle"
+
+#: classes/class-wc-xpate-callback.php:56
+msgid "Use cURL CA bundle"
+msgstr "Use cURL CA bundle"
+
+#: classes/class-wc-xpate-callback.php:58
+msgid "Resolves issue when curl.cacert path is not set in PHP.ini"
+msgstr "Resolves issue when curl.cacert path is not set in PHP.ini"
+
+#: classes/class-wc-xpate-creditcard.php:17
+#: classes/class-wc-xpate-creditcard.php:18
+msgid "Mastercard, VISA, Maestro or V PAY - Xpate"
+msgstr "Mastercard, VISA, Maestro or V PAY - Xpate"
+
+#: classes/class-wc-xpate-gateway.php:65
+msgid ""
+"Your transaction is still being processed. You will be notified when status "
+"is updated."
+msgstr ""
+"Your transaction is still being processed. You will be notified when status "
+"is updated."
+
+#: classes/class-wc-xpate-gateway.php:75
+msgid "Gateway Disabled"
+msgstr "Gateway Disabled"
+
+#: classes/class-wc-xpate-gateway.php:112
+#, php-format
+msgid "Current shop currency %s not supported by Xpate."
+msgstr "Current shop currency %s not supported by Xpate."
+
+#: classes/class-wc-xpate-gateway.php:122
+#, php-format
+msgid "Current shop currency %s not supported by %s."
+msgstr "Current shop currency %s not supported by %s."
+
+#: classes/class-wc-xpate-helper.php:227
+msgid "Credit/Debit Card"
+msgstr "Credit/Debit Card"
+
+#: classes/class-wc-xpate-helper.php:228
+msgid "Enable Credit/Debit Card Payments"
+msgstr "Enable Credit/Debit Card Payments"
+
+#: classes/class-wc-xpate-helper.php:298
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#: classes/class-wc-xpate-helper.php:304
+msgid "Title"
+msgstr "Title"
+
+#: classes/class-wc-xpate-helper.php:306
+msgid "This controls the title which the user sees during checkout."
+msgstr "This controls the title which the user sees during checkout."
+
+#: classes/class-wc-xpate-helper.php:313
+msgid "Allowed currencies"
+msgstr "Allowed currencies"
+
+#: classes/class-wc-xpate-helper.php:314
+msgid "Payment gateway will be available ONLY for selected currencies."
+msgstr "Payment gateway will be available ONLY for selected currencies."
+
+#: classes/class-wc-xpate-helper.php:315
+msgid "If set empty - option is ignored."
+msgstr "If set empty - option is ignored."
+
+#: classes/class-wc-xpate-helper.php:321
+msgid "Select currencies..."
+msgstr "Select currencies..."
+
+#: classes/class-wc-xpate-helper.php:463
+#, php-format
+msgid "Your order %s at %s"
+msgstr "Your order %s at %s"
+
+msgid "Xpate - Library"
+msgstr "Xpate - Library"
+
+msgid "Library"
+msgstr "Library"
+
+msgid "API key is empty Xpate payment methods deactivated"
+msgstr "API key is empty Xpate payment methods deactivated"
+
+msgid "API Key is not valid: %s Xpate payment methods deactivated"
+msgstr "API Key is not valid: %s Xpate payment methods deactivated"
+
+msgid ""
+"API Key has not permission for some action: %s Please contact technical "
+"support!"
+msgstr ""
+"API Key has not permission for some action: %s Please contact technical "
+"support!"
+
+msgid "The following payment methods are not available for selected currency:"
+msgstr "The following payment methods are not available for selected currency:"
+
+msgid ""
+"Unfortunately, we can not currently accept your purchase. Please choose "
+"another payment option to complete your order. We apologize for the "
+"inconvenience."
+msgstr ""
+"Unfortunately, we can not currently accept your purchase. Please choose "
+"another payment option to complete your order. We apologize for the "
+"inconvenience."
+
+msgid "API key is empty. Set API key and try again"
+msgstr "API key is empty. Set API key and try again"
+
+msgid ""
+"Please beware that for bank transactions the refunds will process directly "
+"to the gateway!"
+msgstr ""
+"Please beware that for bank transactions the refunds will process directly "
+"to the gateway!"
